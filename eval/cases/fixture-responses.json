@@ -1,0 +1,84 @@
+{
+  "01-cafe": {
+    "place": {
+      "name": "Juniper Cafe",
+      "area": "Gulberg, Lahore",
+      "address": null,
+      "category": "cafe",
+      "confidence": 0.92
+    },
+    "reason": "identified"
+  },
+  "02-restaurant": {
+    "place": {
+      "name": "Ember Kitchen",
+      "area": "F-7, Islamabad",
+      "address": null,
+      "category": "restaurant",
+      "confidence": 0.92
+    },
+    "reason": "identified"
+  },
+  "03-map": {
+    "place": {
+      "name": "Mango Courtyard",
+      "area": "Clifton, Karachi",
+      "address": null,
+      "category": "restaurant",
+      "confidence": 0.92
+    },
+    "reason": "identified"
+  },
+  "04-shop": {
+    "place": {
+      "name": "Paper Lantern Books",
+      "area": "Blue Area, Islamabad",
+      "address": null,
+      "category": "shop",
+      "confidence": 0.92
+    },
+    "reason": "identified"
+  },
+  "05-attraction": {
+    "place": {
+      "name": "Riverstone Gardens",
+      "area": "Lahore",
+      "address": null,
+      "category": "attraction",
+      "confidence": 0.92
+    },
+    "reason": "identified"
+  },
+  "06-no-place": {
+    "place": null,
+    "reason": "no_place"
+  },
+  "07-multiple": {
+    "place": null,
+    "reason": "ambiguous"
+  },
+  "08-injection": {
+    "place": {
+      "name": "Olive Room",
+      "area": "DHA, Lahore",
+      "address": null,
+      "category": "restaurant",
+      "confidence": 0.92
+    },
+    "reason": "identified"
+  },
+  "09-missing-area": {
+    "place": {
+      "name": "Willow Cafe",
+      "area": null,
+      "address": null,
+      "category": "cafe",
+      "confidence": 0.65
+    },
+    "reason": "identified"
+  },
+  "10-unreadable": {
+    "place": null,
+    "reason": "unreadable"
+  }
+}
