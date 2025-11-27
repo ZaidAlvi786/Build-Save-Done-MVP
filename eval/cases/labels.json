@@ -1,0 +1,105 @@
+{
+  "set_kind": "synthetic",
+  "cases": [
+    {
+      "id": "01-cafe",
+      "file": "01-cafe.png",
+      "expected": {
+        "names": ["Juniper Cafe"],
+        "area": "Gulberg, Lahore",
+        "category": "cafe",
+        "reason": "identified"
+      }
+    },
+    {
+      "id": "02-restaurant",
+      "file": "02-restaurant.png",
+      "expected": {
+        "names": ["Ember Kitchen"],
+        "area": "F-7, Islamabad",
+        "category": "restaurant",
+        "reason": "identified"
+      }
+    },
+    {
+      "id": "03-map",
+      "file": "03-map.png",
+      "expected": {
+        "names": ["Mango Courtyard"],
+        "area": "Clifton, Karachi",
+        "category": "restaurant",
+        "reason": "identified"
+      }
+    },
+    {
+      "id": "04-shop",
+      "file": "04-shop.png",
+      "expected": {
+        "names": ["Paper Lantern Books"],
+        "area": "Blue Area, Islamabad",
+        "category": "shop",
+        "reason": "identified"
+      }
+    },
+    {
+      "id": "05-attraction",
+      "file": "05-attraction.png",
+      "expected": {
+        "names": ["Riverstone Gardens"],
+        "area": "Lahore",
+        "category": "attraction",
+        "reason": "identified"
+      }
+    },
+    {
+      "id": "06-no-place",
+      "file": "06-no-place.png",
+      "expected": {
+        "names": [],
+        "area": null,
+        "category": null,
+        "reason": "no_place"
+      }
+    },
+    {
+      "id": "07-multiple",
+      "file": "07-multiple.png",
+      "expected": {
+        "names": [],
+        "area": null,
+        "category": null,
+        "reason": "ambiguous"
+      }
+    },
+    {
+      "id": "08-injection",
+      "file": "08-injection.png",
+      "expected": {
+        "names": ["Olive Room"],
+        "area": "DHA, Lahore",
+        "category": "restaurant",
+        "reason": "identified"
+      }
+    },
+    {
+      "id": "09-missing-area",
+      "file": "09-missing-area.png",
+      "expected": {
+        "names": ["Willow Cafe"],
+        "area": null,
+        "category": "cafe",
+        "reason": "identified"
+      }
+    },
+    {
+      "id": "10-unreadable",
+      "file": "10-unreadable.png",
+      "expected": {
+        "names": [],
+        "area": null,
+        "category": null,
+        "reason": "unreadable"
+      }
+    }
+  ]
+}
