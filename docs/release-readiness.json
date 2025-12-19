@@ -1,0 +1,56 @@
+{
+  "version": "0.1.0",
+  "reviewed": "2026-10-13",
+  "gates": [
+    {
+      "id": "local-functional-checks",
+      "status": "locally_verified",
+      "evidence": "docs/PHASE-5-REPORT.md"
+    },
+    {
+      "id": "real-vision-accuracy",
+      "status": "blocked",
+      "evidence": "docs/PHASE-1-REPORT.md"
+    },
+    {
+      "id": "android-share-latency",
+      "status": "blocked",
+      "evidence": "docs/TESTING-PHASE-2.md"
+    },
+    {
+      "id": "two-phone-geofences-snooze",
+      "status": "blocked",
+      "evidence": "docs/TESTING-PHASE-3.md"
+    },
+    {
+      "id": "live-providers-cron-and-metric",
+      "status": "blocked",
+      "evidence": "docs/TESTING-PHASE-4.md"
+    },
+    {
+      "id": "native-crash-monitoring",
+      "status": "blocked",
+      "evidence": "docs/TESTING-PHASE-5.md"
+    },
+    {
+      "id": "signed-native-build-performance",
+      "status": "blocked",
+      "evidence": "docs/TESTING-PHASE-5.md"
+    },
+    {
+      "id": "deployed-isolation-deletion-retention",
+      "status": "blocked",
+      "evidence": "docs/SECURITY-REVIEW.md"
+    },
+    {
+      "id": "dependency-security",
+      "status": "blocked",
+      "evidence": "docs/DEPENDENCY-AUDIT.json"
+    },
+    {
+      "id": "owner-store-privacy-assets",
+      "status": "blocked",
+      "evidence": "docs/PLAY-STORE-LISTING.md"
+    }
+  ]
+}
