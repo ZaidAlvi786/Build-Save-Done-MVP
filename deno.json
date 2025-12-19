@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "imports": {
+    "zod": "npm:zod@3.25.76",
+    "@supabase/supabase-js": "npm:@supabase/supabase-js@2.57.4"
+  },
+  "tasks": {
+    "check": "deno check supabase/functions/*/index.ts eval/run.ts",
+    "test": "deno test --allow-read supabase/functions eval",
+    "eval:fixture": "deno run --allow-read eval/run.ts --fixture eval/cases",
+    "eval:live": "deno run --allow-read --allow-env --allow-net eval/run.ts"
+  },
+  "fmt": {
+    "singleQuote": true,
+    "lineWidth": 80
+  },
+  "exclude": ["node_modules", "apps", "dist"],
+  "nodeModulesDir": "none"
+}
