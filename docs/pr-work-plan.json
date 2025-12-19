@@ -1,0 +1,902 @@
+[
+  {
+    "day": 1,
+    "historicalLabel": "2025-11-01",
+    "actualScheduledDate": null,
+    "branch": "work/android-local-toolchain",
+    "base": "main",
+    "title": "android local toolchain",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Discover bundled Studio Java",
+      "Discover SDK platform-tools",
+      "Report SDK 36 availability",
+      "Detect connected test devices",
+      "Separate optional EAS checks",
+      "Document verified local build"
+    ]
+  },
+  {
+    "day": 2,
+    "historicalLabel": "2025-11-02",
+    "actualScheduledDate": null,
+    "branch": "work/android-development-build",
+    "base": "main",
+    "title": "android development build",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Reproduce native build from clean checkout",
+      "Resolve confirmed Gradle failures",
+      "Verify native plugin manifest",
+      "Exercise emulator launch",
+      "Exercise USB device launch",
+      "Record reproducible build evidence"
+    ]
+  },
+  {
+    "day": 3,
+    "historicalLabel": "2025-11-03",
+    "actualScheduledDate": null,
+    "branch": "work/supabase-development-environment",
+    "base": "main",
+    "title": "supabase development environment",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Define disposable project setup",
+      "Validate all migrations on full PostgreSQL",
+      "Verify email token template",
+      "Configure private capture bucket",
+      "Verify authenticated Edge routes",
+      "Record clean environment teardown"
+    ]
+  },
+  {
+    "day": 4,
+    "historicalLabel": "2025-11-04",
+    "actualScheduledDate": null,
+    "branch": "work/qwen-live-extraction",
+    "base": "main",
+    "title": "qwen live extraction",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Verify region-specific configuration",
+      "Evaluate screenshot request compatibility",
+      "Measure complete response handling",
+      "Exercise quota and timeout recovery",
+      "Compare real labeled extraction results",
+      "Record provider retention and cost limits"
+    ]
+  },
+  {
+    "day": 5,
+    "historicalLabel": "2025-11-05",
+    "actualScheduledDate": null,
+    "branch": "work/google-places-live-matching",
+    "base": "main",
+    "title": "google places live matching",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Verify Places New field masks",
+      "Exercise ambiguous destination candidates",
+      "Check explicit branch selection",
+      "Handle zero-result responses",
+      "Validate coordinate TTL on real responses",
+      "Record provider errors and billing setup"
+    ]
+  },
+  {
+    "day": 6,
+    "historicalLabel": "2025-11-06",
+    "actualScheduledDate": null,
+    "branch": "work/google-static-map-validation",
+    "base": "main",
+    "title": "google static map validation",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Verify server-side map key restriction",
+      "Validate marker and viewport behavior",
+      "Exercise preview response size bounds",
+      "Handle missing preview gracefully",
+      "Verify Google attribution visibility",
+      "Record signed-device map behavior"
+    ]
+  },
+  {
+    "day": 7,
+    "historicalLabel": "2025-11-07",
+    "actualScheduledDate": null,
+    "branch": "work/capture-share-delivery",
+    "base": "main",
+    "title": "capture share delivery",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise Android image shares",
+      "Exercise text and URL shares",
+      "Verify cold-launch intent persistence",
+      "Verify warm-launch duplicate handling",
+      "Handle unsupported share types",
+      "Measure share-to-local-save latency"
+    ]
+  },
+  {
+    "day": 8,
+    "historicalLabel": "2025-11-08",
+    "actualScheduledDate": null,
+    "branch": "work/capture-image-normalization",
+    "base": "main",
+    "title": "capture image normalization",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise real HEIC conversion",
+      "Measure large JPEG downsampling",
+      "Verify rotated-image orientation",
+      "Exercise oversized image fallback",
+      "Verify WebP upload compatibility",
+      "Record native conversion memory usage"
+    ]
+  },
+  {
+    "day": 9,
+    "historicalLabel": "2025-11-09",
+    "actualScheduledDate": null,
+    "branch": "work/capture-crash-recovery",
+    "base": "main",
+    "title": "capture crash recovery",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Interrupt capture copy safely",
+      "Exercise journal recovery after termination",
+      "Verify hash acknowledgement after upload",
+      "Exercise partial upload retries",
+      "Recover corrupted capture metadata",
+      "Verify account tombstone write fencing"
+    ]
+  },
+  {
+    "day": 10,
+    "historicalLabel": "2025-11-10",
+    "actualScheduledDate": null,
+    "branch": "work/email-otp-device-flow",
+    "base": "main",
+    "title": "email otp device flow",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise real six-digit OTP",
+      "Handle expired-code retry",
+      "Handle rate-limited email requests",
+      "Exercise interrupted session persistence",
+      "Verify foreground token renewal",
+      "Record sign-out and reauthentication flow"
+    ]
+  },
+  {
+    "day": 11,
+    "historicalLabel": "2025-11-11",
+    "actualScheduledDate": null,
+    "branch": "work/secure-session-hardening",
+    "base": "main",
+    "title": "secure session hardening",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Verify chunked token writes on device",
+      "Exercise partial secure-store failures",
+      "Validate session removal on sign-out",
+      "Verify device-only storage policy",
+      "Exercise token rotation races",
+      "Inspect backup exclusion evidence"
+    ]
+  },
+  {
+    "day": 12,
+    "historicalLabel": "2025-11-12",
+    "actualScheduledDate": null,
+    "branch": "work/place-confirmation-recovery",
+    "base": "main",
+    "title": "place confirmation recovery",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise edited identity confirmation",
+      "Verify explicit address acknowledgement",
+      "Exercise simultaneous confirmations",
+      "Handle quota-limited confirmation",
+      "Recover network loss after server commit",
+      "Verify stable saved-item identity"
+    ]
+  },
+  {
+    "day": 13,
+    "historicalLabel": "2025-11-13",
+    "actualScheduledDate": null,
+    "branch": "work/saved-list-accessibility",
+    "base": "main",
+    "title": "saved list accessibility",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Audit TalkBack reading order",
+      "Validate large-font place rows",
+      "Improve inaccessible filter controls if found",
+      "Verify accessible swipe alternatives",
+      "Validate selected-place focus behavior",
+      "Record screen-reader device evidence"
+    ]
+  },
+  {
+    "day": 14,
+    "historicalLabel": "2025-11-14",
+    "actualScheduledDate": null,
+    "branch": "work/saved-list-device-performance",
+    "base": "main",
+    "title": "saved list device performance",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Capture release-build list baseline",
+      "Profile expensive render paths",
+      "Reduce measured avoidable row updates",
+      "Measure scrolling frame stalls",
+      "Measure memory with 1000 places",
+      "Record before-and-after device traces"
+    ]
+  },
+  {
+    "day": 15,
+    "historicalLabel": "2025-11-15",
+    "actualScheduledDate": null,
+    "branch": "work/nearby-distance-behavior",
+    "base": "main",
+    "title": "nearby distance behavior",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Validate location-denied ordering",
+      "Exercise equal-distance stable ordering",
+      "Check edge coordinates and antimeridian",
+      "Verify missing-coordinate placement",
+      "Exercise location-refresh race handling",
+      "Record distance presentation accuracy"
+    ]
+  },
+  {
+    "day": 16,
+    "historicalLabel": "2025-11-16",
+    "actualScheduledDate": null,
+    "branch": "work/maps-navigation-actions",
+    "base": "main",
+    "title": "maps navigation actions",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise Google Maps app intent",
+      "Exercise browser fallback when Maps absent",
+      "Verify encoded destination names",
+      "Handle stale destination coordinates",
+      "Verify action logging before external launch",
+      "Record return-from-Maps recovery"
+    ]
+  },
+  {
+    "day": 17,
+    "historicalLabel": "2025-11-17",
+    "actualScheduledDate": null,
+    "branch": "work/foreground-location-permissions",
+    "base": "main",
+    "title": "foreground location permissions",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise first permission request",
+      "Exercise precise-location denial",
+      "Exercise permanently denied recovery",
+      "Verify explanation before permission dialog",
+      "Validate permission revocation while active",
+      "Record foreground permission matrix"
+    ]
+  },
+  {
+    "day": 18,
+    "historicalLabel": "2025-11-18",
+    "actualScheduledDate": null,
+    "branch": "work/background-location-permissions",
+    "base": "main",
+    "title": "background location permissions",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise Android Always permission flow",
+      "Validate Settings return handling",
+      "Exercise background permission revocation",
+      "Verify foreground-service disclosure",
+      "Handle unsupported permission states",
+      "Record two-phone permission evidence"
+    ]
+  },
+  {
+    "day": 19,
+    "historicalLabel": "2025-11-19",
+    "actualScheduledDate": null,
+    "branch": "work/geofence-registration-capacity",
+    "base": "main",
+    "title": "geofence registration capacity",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise nearest-20 selection on device",
+      "Verify deterministic region replacement",
+      "Handle native registration failure",
+      "Reconcile app and OS region lists",
+      "Validate region removal after visiting",
+      "Record region-limit behavior"
+    ]
+  },
+  {
+    "day": 20,
+    "historicalLabel": "2025-11-20",
+    "actualScheduledDate": null,
+    "branch": "work/geofence-cooldown-behavior",
+    "base": "main",
+    "title": "geofence cooldown behavior",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise repeated boundary entry",
+      "Verify 12-hour cooldown persistence",
+      "Exercise wall-clock changes",
+      "Handle duplicate native callbacks",
+      "Verify paused reminders never notify",
+      "Record walk-and-drive traces"
+    ]
+  },
+  {
+    "day": 21,
+    "historicalLabel": "2025-11-21",
+    "actualScheduledDate": null,
+    "branch": "work/geofence-background-reliability",
+    "base": "main",
+    "title": "geofence background reliability",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise screen-off delivery",
+      "Exercise Doze delivery delay",
+      "Exercise app process termination",
+      "Verify battery-optimization recovery guidance",
+      "Exercise background task exceptions",
+      "Record two-manufacturer delivery evidence"
+    ]
+  },
+  {
+    "day": 22,
+    "historicalLabel": "2025-11-22",
+    "actualScheduledDate": null,
+    "branch": "work/notification-action-routing",
+    "base": "main",
+    "title": "notification action routing",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise Navigate button from locked screen",
+      "Exercise Been button from killed app",
+      "Exercise Snooze button from foreground",
+      "Verify notification body opens saved list",
+      "Handle repeated response callbacks",
+      "Record Android action routing matrix"
+    ]
+  },
+  {
+    "day": 23,
+    "historicalLabel": "2025-11-23",
+    "actualScheduledDate": null,
+    "branch": "work/notification-snooze-recovery",
+    "base": "main",
+    "title": "notification snooze recovery",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Verify 24-hour alarm calculation",
+      "Exercise scheduling failure retry",
+      "Exercise child notification resnooze",
+      "Verify cancellation after place visit",
+      "Verify cancellation after account switch",
+      "Record device alarm delivery evidence"
+    ]
+  },
+  {
+    "day": 24,
+    "historicalLabel": "2025-11-24",
+    "actualScheduledDate": null,
+    "branch": "work/reminder-offline-outbox",
+    "base": "main",
+    "title": "reminder offline outbox",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise prolonged offline action queue",
+      "Handle reconnect after server acknowledgement",
+      "Verify conflicting action precedence",
+      "Exercise sync failure without queue loss",
+      "Verify account-scoped outbox isolation",
+      "Record remote reminder reconciliation"
+    ]
+  },
+  {
+    "day": 25,
+    "historicalLabel": "2025-11-25",
+    "actualScheduledDate": null,
+    "branch": "work/reminder-reboot-recovery",
+    "base": "main",
+    "title": "reminder reboot recovery",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Inventory OS state after reboot",
+      "Reconcile stale scheduled notification IDs",
+      "Exercise reboot before snooze deadline",
+      "Verify registration after foreground launch",
+      "Handle missing native task support",
+      "Document measured reboot limitations"
+    ]
+  },
+  {
+    "day": 26,
+    "historicalLabel": "2025-11-26",
+    "actualScheduledDate": null,
+    "branch": "work/coordinate-expiry-lifecycle",
+    "base": "main",
+    "title": "coordinate expiry lifecycle",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise 29-day destination expiry",
+      "Verify server coordinate refresh ownership",
+      "Verify stale region removal on wake",
+      "Exercise cleanup when app stays suspended",
+      "Handle provider refresh outage",
+      "Record deployed expiry cleanup evidence"
+    ]
+  },
+  {
+    "day": 27,
+    "historicalLabel": "2025-11-27",
+    "actualScheduledDate": null,
+    "branch": "work/cross-device-place-reconciliation",
+    "base": "main",
+    "title": "cross device place reconciliation",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise second-device place deletion",
+      "Exercise second-device visit action",
+      "Reconcile stale local region selection",
+      "Handle refresh interrupted by sign-out",
+      "Prevent deleted-place resurrection",
+      "Record two-device offline scenarios"
+    ]
+  },
+  {
+    "day": 28,
+    "historicalLabel": "2025-11-28",
+    "actualScheduledDate": null,
+    "branch": "work/analytics-consent-validation",
+    "base": "main",
+    "title": "analytics consent validation",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Verify default opt-out on fresh install",
+      "Exercise remote opt-out during flush",
+      "Verify consent isolation by account",
+      "Validate all eight event allowlists",
+      "Exercise quota rejection without loss",
+      "Inspect real PostHog payload evidence"
+    ]
+  },
+  {
+    "day": 29,
+    "historicalLabel": "2025-11-29",
+    "actualScheduledDate": null,
+    "branch": "work/analytics-provider-retention",
+    "base": "main",
+    "title": "analytics provider retention",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Define opaque-identity retention policy",
+      "Exercise provider deletion workflow",
+      "Verify retention configuration in test project",
+      "Handle deletion retry observability",
+      "Verify no screenshot or GPS ingestion",
+      "Record consent and deletion evidence"
+    ]
+  },
+  {
+    "day": 30,
+    "historicalLabel": "2025-11-30",
+    "actualScheduledDate": null,
+    "branch": "work/digest-push-credentials",
+    "base": "main",
+    "title": "digest push credentials",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Validate EAS public project identifier",
+      "Configure test FCM push credentials",
+      "Exercise token acquisition on physical phone",
+      "Verify enhanced Expo push authentication",
+      "Exercise invalid-token cleanup",
+      "Record end-to-end push receipt evidence"
+    ]
+  },
+  {
+    "day": 31,
+    "historicalLabel": "2025-12-01",
+    "actualScheduledDate": null,
+    "branch": "work/digest-token-device-races",
+    "base": "main",
+    "title": "digest token device races",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise last-device consent takeover",
+      "Exercise old-device token refresh rejection",
+      "Verify disable affects matching installation",
+      "Exercise token rotation during send",
+      "Verify account deletion fences delivery",
+      "Record concurrent device traces"
+    ]
+  },
+  {
+    "day": 32,
+    "historicalLabel": "2025-12-02",
+    "actualScheduledDate": null,
+    "branch": "work/digest-weekly-scheduler",
+    "base": "main",
+    "title": "digest weekly scheduler",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Install reviewed test-project Vault entries",
+      "Validate pg_cron and pg_net access",
+      "Exercise Friday local-time claim",
+      "Verify one reservation per week",
+      "Exercise scheduler outage recovery limits",
+      "Record scheduled invocation evidence"
+    ]
+  },
+  {
+    "day": 33,
+    "historicalLabel": "2025-12-03",
+    "actualScheduledDate": null,
+    "branch": "work/digest-timezone-boundaries",
+    "base": "main",
+    "title": "digest timezone boundaries",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise Pakistan local Friday window",
+      "Exercise daylight-saving transition zones",
+      "Exercise timezone preference changes",
+      "Exercise stale nearby snapshot rejection",
+      "Verify empty-nearby digest suppression",
+      "Record timestamp boundary results"
+    ]
+  },
+  {
+    "day": 34,
+    "historicalLabel": "2025-12-04",
+    "actualScheduledDate": null,
+    "branch": "work/digest-delivery-observability",
+    "base": "main",
+    "title": "digest delivery observability",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Distinguish accepted from visible push",
+      "Exercise unknown provider send outcome",
+      "Exercise delayed receipt polling",
+      "Surface invalid-token outcomes safely",
+      "Measure missed at-most-once attempts",
+      "Record delivery operational runbook"
+    ]
+  },
+  {
+    "day": 35,
+    "historicalLabel": "2025-12-05",
+    "actualScheduledDate": null,
+    "branch": "work/success-metric-live-validation",
+    "base": "main",
+    "title": "success metric live validation",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Create disposable seven-day cohorts",
+      "Verify reminder success window boundaries",
+      "Verify individual deletion keeps milestone",
+      "Verify account deletion removes cohort member",
+      "Compare SQL metric with fixture counts",
+      "Record live metric and target interpretation"
+    ]
+  },
+  {
+    "day": 36,
+    "historicalLabel": "2025-12-06",
+    "actualScheduledDate": null,
+    "branch": "work/native-crash-consent-design",
+    "base": "main",
+    "title": "native crash consent design",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Define minimal native diagnostics payload",
+      "Evaluate consent before SDK initialization",
+      "Specify native offline-cache deletion",
+      "Review provider metadata exposure",
+      "Define release and environment mapping",
+      "Record privacy-reviewed integration decision"
+    ]
+  },
+  {
+    "day": 37,
+    "historicalLabel": "2025-12-07",
+    "actualScheduledDate": null,
+    "branch": "work/native-crash-capture",
+    "base": "main",
+    "title": "native crash capture",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Integrate chosen native monitor in test build",
+      "Capture deliberate native fatal failure",
+      "Verify opt-out blocks new reports",
+      "Verify sign-out clears queued reports",
+      "Verify deletion clears local diagnostic state",
+      "Record native crash capture evidence"
+    ]
+  },
+  {
+    "day": 38,
+    "historicalLabel": "2025-12-08",
+    "actualScheduledDate": null,
+    "branch": "work/native-symbolication-alerts",
+    "base": "main",
+    "title": "native symbolication alerts",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Configure protected symbol upload workflow",
+      "Verify native stack symbolication",
+      "Verify JavaScript release matching",
+      "Exercise diagnostic grouping stability",
+      "Verify test alert delivery",
+      "Record monitoring ownership runbook"
+    ]
+  },
+  {
+    "day": 39,
+    "historicalLabel": "2025-12-09",
+    "actualScheduledDate": null,
+    "branch": "work/deployed-rls-isolation",
+    "base": "main",
+    "title": "deployed rls isolation",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise two-user profile isolation",
+      "Exercise two-user saved-item isolation",
+      "Exercise two-user place isolation",
+      "Exercise two-user reminder isolation",
+      "Verify service-only RPC denial",
+      "Record deployed RLS security evidence"
+    ]
+  },
+  {
+    "day": 40,
+    "historicalLabel": "2025-12-10",
+    "actualScheduledDate": null,
+    "branch": "work/private-storage-isolation",
+    "base": "main",
+    "title": "private storage isolation",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Exercise unauthorized capture downloads",
+      "Exercise unauthorized capture uploads",
+      "Verify immutable object overwrite rejection",
+      "Verify MIME and size restriction",
+      "Verify capture ownership path checks",
+      "Record deployed storage security evidence"
+    ]
+  },
+  {
+    "day": 41,
+    "historicalLabel": "2025-12-11",
+    "actualScheduledDate": null,
+    "branch": "work/account-deletion-failure-recovery",
+    "base": "main",
+    "title": "account deletion failure recovery",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Interrupt deletion during object removal",
+      "Verify Auth identity remains retryable",
+      "Exercise late extraction during deletion",
+      "Verify complete database cascade",
+      "Verify second account remains intact",
+      "Record deployed deletion retry evidence"
+    ]
+  },
+  {
+    "day": 42,
+    "historicalLabel": "2025-12-12",
+    "actualScheduledDate": null,
+    "branch": "work/local-data-deletion-audit",
+    "base": "main",
+    "title": "local data deletion audit",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Inspect capture file removal on deletion",
+      "Inspect reminder SQLite purge",
+      "Inspect analytics SQLite purge",
+      "Inspect secure session purge",
+      "Verify tombstone prevents delayed writes",
+      "Record filesystem and backup evidence"
+    ]
+  },
+  {
+    "day": 43,
+    "historicalLabel": "2025-12-13",
+    "actualScheduledDate": null,
+    "branch": "work/dependency-security-remediation",
+    "base": "main",
+    "title": "dependency security remediation",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Refresh authoritative dependency findings",
+      "Map affected runtime versus build paths",
+      "Evaluate compatible maintained fixes",
+      "Implement validated fixes where available",
+      "Run SDK and native regression checks",
+      "Record unresolved advisory decisions"
+    ]
+  },
+  {
+    "day": 44,
+    "historicalLabel": "2025-12-14",
+    "actualScheduledDate": null,
+    "branch": "work/signed-android-bundle-audit",
+    "base": "main",
+    "title": "signed android bundle audit",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Inspect release manifest permissions",
+      "Inspect bundled public environment values",
+      "Verify privileged keys absent from bundle",
+      "Verify screenshot data absent from logs",
+      "Inspect network endpoint inventory",
+      "Record signed artifact audit evidence"
+    ]
+  },
+  {
+    "day": 45,
+    "historicalLabel": "2025-12-15",
+    "actualScheduledDate": null,
+    "branch": "work/android-cold-start-performance",
+    "base": "main",
+    "title": "android cold start performance",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Measure ten release cold launches",
+      "Measure offline first-screen readiness",
+      "Profile startup work on device",
+      "Reduce measured startup bottlenecks",
+      "Repeat on second physical phone",
+      "Record median and p95 launch evidence"
+    ]
+  },
+  {
+    "day": 46,
+    "historicalLabel": "2025-12-16",
+    "actualScheduledDate": null,
+    "branch": "work/android-share-confirm-performance",
+    "base": "main",
+    "title": "android share confirm performance",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Measure screenshot-to-confirm baseline",
+      "Profile conversion and upload latency",
+      "Profile extraction and matching latency",
+      "Improve measured redundant work",
+      "Exercise slow-network recovery usability",
+      "Record ten-second gate evidence"
+    ]
+  },
+  {
+    "day": 47,
+    "historicalLabel": "2025-12-17",
+    "actualScheduledDate": null,
+    "branch": "work/beta-regression-matrix",
+    "base": "main",
+    "title": "beta regression matrix",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Verify fresh-install onboarding",
+      "Verify upgrade retains captures",
+      "Verify offline manual-place path",
+      "Verify auth and account-switch regression",
+      "Verify background reminder regression",
+      "Record reproducible beta test matrix"
+    ]
+  },
+  {
+    "day": 48,
+    "historicalLabel": "2025-12-18",
+    "actualScheduledDate": null,
+    "branch": "work/privacy-and-deletion-resources",
+    "base": "main",
+    "title": "privacy and deletion resources",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Draft actual collected-data inventory",
+      "Verify provider retention disclosures",
+      "Prepare owner-approved privacy content",
+      "Prepare external deletion request resource",
+      "Validate support and contact details",
+      "Record owner review and resource links"
+    ]
+  },
+  {
+    "day": 49,
+    "historicalLabel": "2025-12-19",
+    "actualScheduledDate": null,
+    "branch": "work/play-store-submission-evidence",
+    "base": "main",
+    "title": "play store submission evidence",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Prepare real-device store screenshots",
+      "Validate listing claims against app",
+      "Prepare background-location explanation video",
+      "Prepare foreground-service justification",
+      "Complete owner-reviewed Data Safety answers",
+      "Record internal-testing submission checklist"
+    ]
+  },
+  {
+    "day": 50,
+    "historicalLabel": "2025-12-20",
+    "actualScheduledDate": null,
+    "branch": "work/release-evidence-reconciliation",
+    "base": "main",
+    "title": "release evidence reconciliation",
+    "status": "planned",
+    "commits": [],
+    "workItems": [
+      "Review all ten required release gates",
+      "Attach signed build and device evidence",
+      "Attach provider and deletion evidence",
+      "Review remaining security decisions",
+      "Verify metric gate remains accurately represented",
+      "Record final go-or-hold decision"
+    ]
+  }
+]
