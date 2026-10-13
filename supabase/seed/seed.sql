@@ -1,0 +1,2 @@
+-- Personal screenshots and production accounts are never seeded.
+-- Isolation fixtures live in transactional tests/database/rls.sql.

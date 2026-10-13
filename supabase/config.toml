@@ -1,0 +1,50 @@
+project_id = "saved-done"
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+[db]
+port = 54322
+major_version = 17
+[db.seed]
+enabled = true
+sql_paths = ["./seed/seed.sql"]
+[studio]
+enabled = true
+port = 54323
+[auth]
+enabled = true
+site_url = "http://localhost:8081"
+[functions.extract-place]
+# The handler verifies the user via Auth getUser, including new asymmetric JWTs.
+verify_jwt = false
+import_map = "./functions/extract-place/deno.json"
+
+[functions.match-place]
+verify_jwt = false
+import_map = "./functions/match-place/deno.json"
+
+[functions.place-map]
+verify_jwt = false
+import_map = "./functions/place-map/deno.json"
+
+[functions.delete-account]
+verify_jwt = false
+import_map = "./functions/delete-account/deno.json"
+
+[functions.refresh-place]
+verify_jwt = false
+import_map = "./functions/refresh-place/deno.json"
+
+[functions.track-events]
+verify_jwt = false
+import_map = "./functions/track-events/deno.json"
+
+[functions.weekly-digest]
+verify_jwt = false
+import_map = "./functions/weekly-digest/deno.json"
+
+[functions.report-error]
+verify_jwt = false
+import_map = "./functions/report-error/deno.json"
