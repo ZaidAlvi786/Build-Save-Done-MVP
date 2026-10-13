@@ -1,0 +1,1 @@
+Durable private capture journal and SQLite index, idempotent share ingestion, account-bound serialized retries, private upload and server extraction. Originals survive failure and are removed after confirmation.
