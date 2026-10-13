@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+dist/
+coverage/
+# Secret environment files at any depth; only example templates may be committed.
+.env
+.env.*
+!.env.example
+android/
+ios/
+supabase/.temp/
+*.log
+
+eval/private/
