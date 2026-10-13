@@ -1,0 +1,48 @@
+{
+  "name": "saved-done",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/mobile"
+  ],
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "npm run start -w apps/mobile",
+    "android": "npm run android -w apps/mobile",
+    "lint": "eslint .",
+    "typecheck": "npm run typecheck -w apps/mobile",
+    "test": "npm run test -w apps/mobile",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "npm run lint && npm run typecheck && npm test && npm run format:check",
+    "backend:check": "npm run deno -- task check",
+    "backend:test": "npm run deno -- task test",
+    "eval:fixture": "npm run deno -- task eval:fixture",
+    "check:all": "npm run check && npm run release:test && npm run backend:check && npm run backend:lint && npm run backend:test && npm run db:test:local && npm run db:test:retention && npm run eval:fixture",
+    "deno": "node scripts/deno.mjs",
+    "backend:lint": "npm run deno -- lint supabase/functions eval",
+    "db:test:local": "node supabase/tests/local-postgres.mjs",
+    "db:test:retention": "node supabase/tests/retention-local.mjs",
+    "performance:local": "node scripts/performance.mjs",
+    "release:check": "node scripts/release-check.mjs",
+    "release:test": "node --test scripts/release-gates.test.mjs",
+    "release:preflight": "node scripts/release-preflight.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.8",
+    "@electric-sql/pglite-postgis": "0.2.8",
+    "deno": "^2.9.6",
+    "eslint": "^9.39.0",
+    "eslint-config-expo": "~57.0.2",
+    "prettier": "^3.6.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "typescript": "~5.9.2"
+  },
+  "overrides": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  }
+}
